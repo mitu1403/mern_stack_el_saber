@@ -56,3 +56,14 @@ function add(){
 add()
 var result = add // By this line, every functionalities of add is assigned in variable result
 result()        //  Here, variable result will work exactly as add() function
+
+
+function add(){
+  console.log('ADDING');
+  return 'added'
+}
+add()
+var result = add 
+result()        
+var r = result()  // here, we are keeping the return value in variable called r
+console.log(r);
